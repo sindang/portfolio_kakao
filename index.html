@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" media="all and (min-width: 851px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="all and (max-width: 850px)">
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/script.js"></script>
+    <title>카카오 프렌즈샵</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="innerheader">
+            <h1><a href="index.html"><img src="img/img_gnb_1810022.png" alt=""></a></h1>
+            <ul class="menu">
+                <li><a href="#">카테고리</a></li>
+                <li><a href="#">스토리</a></li>
+                <li><a href="#">매장안내</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+            <ul class="search">
+                <li><a href="#"><img src="img/searchimg_gnb_181002.png" alt=""></a></li>
+                <li><a href="#"><img src="img/myimg_gnb_181002.png" alt=""></a></li>
+                <li><a href="#"><img src="img/cartimg_gnb_181002.png" alt=""></a></li>
+                <li><a href="#"><img src="img/langimg_gnb_181002.png" alt=""></a></li>
+
+            </ul>
+        </div>
+
+    <div class="hiddenmenu">
+        <div class="inner">
+            <div class="left">
+                <div class="title">전체 분류</div>
+                <ul>
+
+                    <li><a href="#">전체</a>
+                        <ul>
+                            <li><a href="#">신상품순</a></li>
+                            <li><a href="#">낮은 가격순</a></li>
+                            <li><a href="#">높은 가격순</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">테마 기획전</a>
+                        <ul class="theme">
+                            <li><a href="#">핑크하와이</a></li>
+                            <li><a href="#">배틀그라운드</a></li>
+                            <li><a href="#">허니프렌즈</a></li>
+                            <li><a href="#">아이앱 X 라이언&amp;콘</a></li>
+                            <li><a href="#">버블버블</a></li>
+                            <li><a href="#">레이지선데이</a></li>
+                            <li><a href="#">러블리 어피치</a></li>
+                            <li><a href="#">리틀 스케치북</a></li>
+                            <li><a href="#">커버낫 X 라이언</a></li>
+                            <li><a href="#">트레블 프렌즈</a></li>
+                        </ul>
+                        <ul class="theme_image">
+                            <li><img src="img/190604_GNBbanner_pinkhawaii_W.png" alt=""></li>
+                            <li><img src="img/190510_GNBbanner_battlegrounds_W.png" alt=""></li>
+                            <li><img src="img/190425_GNBbanner_honey_W.png" alt=""></li>
+                            <li><img src="img/190425_GNBbanner_iab_W.png" alt=""></li>
+                            <li><img src="img/190402_GNB_bubblebubble_W.png" alt=""></li>
+                            <li><img src="img/190329_GNBbanner_lazysunday_W.png" alt=""></li>
+                            <li><img src="img/190221_gnb_lovelyapeach_W.png" alt=""></li>
+                            <li><img src="img/190213_GNB_littlesketchbook_W.png" alt=""></li>
+                            <li><img src="img/190212_GNB_covernat_W.png" alt=""></li>
+                            <li><img src="img/190213_GNB_travelfriends_W.png" alt=""></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">인형/피규어</a>
+                        <ul>
+                            <li><a href="#">미니인형</a></li>
+                            <li><a href="#">중형인형</a></li>
+                            <li><a href="#">대형인형</a></li>
+                            <li><a href="#">키체인인형</a></li>
+                            <li><a href="#">피규어/브릭</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">리빙</a>
+                        <ul>
+                            <li><a href="#">쿠션/방석</a></li>
+                            <li><a href="#">컵/텀블러</a></li>
+                            <li><a href="#">주방용품</a></li>
+                            <li><a href="#">미용/욕실용품</a></li>
+                            <li><a href="#">생활소품/잡화</a></li>
+                            <li><a href="#">푸드</a></li>
+                            <li><a href="#">탈취/방향제</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">잡화</a>
+                        <ul>
+                            <li><a href="#">신발</a></li>
+                            <li><a href="#">파우치/지갑/가방</a></li>
+                            <li><a href="#">패션소품</a></li>
+                            <li><a href="#">우산</a></li>
+                            <li><a href="#">시즌잡화</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">의류</a>
+                        <ul>
+                            <li><a href="#">여성의류</a></li>
+                            <li><a href="#">남성의류</a></li>
+                            <li><a href="#">상의</a></li>
+                            <li><a href="#">잠옷</a></li>
+                            <li><a href="#">속옷</a></li>
+                            <li><a href="#">양말</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">쥬얼리</a>
+                        <ul>
+                            <li><a href="#">귀걸이</a></li>
+                            <li><a href="#">반지</a></li>
+                            <li><a href="#">가방참/핀뱃지</a></li>
+                            <li><a href="#">헤어스트링</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li><a href="#">문구</a>
+                        <ul>
+                            <li><a href="#">필기구</a></li>
+                            <li><a href="#">필통/케이스</a></li>
+                            <li><a href="#">노트/메모</a></li>
+                            <li><a href="#">파일</a></li>
+                            <li><a href="#">스티커</a></li>
+                            <li><a href="#">데스크 소품</a></li>
+                            <li><a href="#">카드/엽서</a></li>
+                            <li><a href="#">선물 포장</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">여행/레져</a>
+                        <ul>
+                            <li><a href="#">여행</a></li>
+                            <li><a href="#">스포츠</a></li>
+                            <li><a href="#">물놀이</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">생활테크</a>
+                        <ul>
+                            <li><a href="#">휴대폰 케이스</a></li>
+                            <li><a href="#">휴대폰 악세서리</a></li>
+                            <li><a href="#">노트북 악세서리</a></li>
+                            <li><a href="#">소형 전자</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#"><img src="img/niniimg_gnb_181002.png" alt=""></a>
+
+                        <ul class="niniz">
+                            <li><a href="#">케로&amp;베로니</a></li>
+                            <li><a href="#">앙몬드</a></li>
+                            <li><a href="#">스카피</a></li>
+                            <li><a href="#">죠르디</a></li>
+                        </ul>
+                        <ul class="niniz_image">
+                            <li><img src="img/20180816_W_theme_GNB_keroberony_2x.png" alt=""></li>
+                            <li><img src="img/20181002_angmond_GNB_W@2x.png" alt=""></li>
+                            <li><img src="img/20181002_scappy_GNB_W@2x.png" alt=""></li>
+                            <li><img src="img/190527_GNBbanner_Jordy_W.png" alt=""></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="title">캐릭터별</div>
+                <ul>
+                    <li><a href="#"><img src="img/side_character1_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character2_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character3_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character4_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character5_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character6_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character7_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character8_171129.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div></div>
+    <div class="header_mobile">
+        <div class="topheader">
+            <div class="leftmenu">
+                <div class="menubar">
+                    <a href="#"><span></span>
+                        <span></span>
+                        <span></span></a>
+                </div>
+                <div class="search">
+                    <a href="#"><img src="img/searchimg_gnb_181002.png" alt=""></a>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="img/img_gnb_1810022.png" alt=""></a>
+            </div>
+            <div class="rightmenu">
+                <div class="cart">
+                    <a href="#"><img src="img/cartimg_gnb_181002.png" alt=""></a>
+                </div>
+                <div class="lang">
+                    <a href="#"><img src="img/langimg_gnb_181002.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="on"><a href="#">홈</a></li>
+                <li><a href="#">신규</a></li>
+                <li><a href="#">인기</a></li>
+                <li><a href="#">세일</a></li>
+            </ul>
+            <span class="bar"></span>
+        </div>
+        <div class="curtain" id="wrapper">
+           <ul>
+
+            <div class="top1">
+                <div class="login">
+                    <a href="#">로그인이 필요해요</a>
+                    <a href="#">카카오 간편로그인</a>
+                </div>
+                <div class="check"><a href="#">비회원 주문조회</a></div>
+                <div class="cancel">
+                    <a href="#"><img src="img/cancel.png" alt=""></a>
+                </div>
+            </div>
+            <div class="top2">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/shopping-cart.png" alt="">
+                        <span>장바구니</span>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/delivery-truck.png" alt="">
+                        <span>주문조회</span>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/favorite-heart-button.png" alt="">
+                        <span>찜</span>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/man-user.png" alt="">
+                        <span>마이페이지</span>
+                    </a></li>
+                </ul>
+            </div>
+            <div class="banner">
+                <img src="img/190604_NPbanner_pinkhawaii_kor.jpg" alt="">
+            </div>
+            <div class="all">
+                <ul>
+                    <li><a href="#">전체보기</a></li>
+                    <li><a href="#">테마 기획전</a></li>
+                    <li><a href="#">인형/피규어</a></li>
+                    <li><a href="#">리빙</a></li>
+                    <li><a href="#">잡화</a></li>
+                    <li><a href="#">의류</a></li>
+                    <li><a href="#">쥬얼리</a></li>
+                    <li><a href="#">문구</a></li>
+                    <li><a href="#">여행/레져</a></li>
+                    <li><a href="#">생활테크</a></li>
+                    <li><a href="#"><img src="img/ninizimg_gnb_181002.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="ning">
+               <div class="name">
+                   <a href="#">
+                       테마 기획전 <img src="img/right-arrow.png" alt="">
+                   </a>
+               </div>
+                <ul>
+                    <li><a href="#"><img src="img/190604_GNBbanner_pinkhawaii_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190510_GNBbanner_battlegrounds_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190425_GNBbanner_honey_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190425_GNBbanner_iab_M2.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190402_GNB_bubblebubble_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190328_GNBbanner_lazysunday_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190221_gnb_lovelyapeach_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190213_GNB_littlesketchbook_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190212_GNB_covernat_M.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/190213_GNB_travelfriends_M.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="nang">
+               <div class="name">
+                   <a href="#">
+                       테마 기획전 <img src="img/right-arrow.png" alt="">
+                   </a>
+               </div>
+                <ul>
+                    <li><a href="#"><img src="img/side_character1_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character2_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character3_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character4_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character5_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character6_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character7_171129.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/side_character8_171129.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="nyong">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/closed-book.png" alt=""> 브랜드 스토리 <img src="img/right-arrow.png" alt="">
+                    </a></li>
+
+                    <li><a href="#">
+                        <img src="img/store.png" alt=""> 매장안내 <img src="img/right-arrow.png" alt="">
+                    </a></li>
+
+                    <li><a href="#">
+                        <img src="img/question-mark.png" alt=""> 고객센터 <img src="img/right-arrow.png" alt="">
+                    </a></li>
+                </ul>
+                <div class="power">
+                    <a href="#">
+                        <img src="img/power.png" alt=""> 로그인 하러가기
+                    </a>
+                </div>
+                <div class="copyright">
+                    &copy; KAKAO IX CORP.
+                </div>
+            </div>
+        </ul></div>
+    </div>
+    <div class="main">
+        <div class="innermain">
+            <div class="section1">
+                <div class="slide_box">
+                    <div class="slide">
+                        <ul>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190820_Rbanner_phonecase_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        핸드폰 케이스 신상 8종<br>
+                                        <span>고르는 재미, 폰케이스 맛집</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190823_Rbanner_pet_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        카카오프렌즈 애견 용품 런칭<br>
+                                        <span>우리집 댕댕이 라이언 꼬까옷</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190830_Rbanner_megaface_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        크고 아름다운 메가페이스쿠션<br>
+                                        <span>메가급 커여움</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190830_Rbanner_friendswater_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        깨끗한 물에 귀여움 한방울<br>
+                                        <span>이렇게 귀여울 水가!</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190822_Rbanner_travel_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        열심히 일한 당신을 위해<br>
+                                        <span>훌-쩍 떠나고플 때</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190801_Rbanner_lovely2_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        러블리어피치 테마 문구류<br>
+                                        <span>심쿵 핑크빛 어피치 다꾸</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190812_Rbanner_home_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        휴가 안 가는 사람 모여라! <br>
+                                        <span>프로집순이의 방콕휴가템</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190712_Rbanner_Briefbag_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        노트북만 있으면 허전해<br>
+                                        <span>열일을 위한 노트북 용품</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190812_Rbanner_monami_W.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        모나미 신상 모음<br>
+                                        <span>사각사각 클래식 감성</span>
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190827_SCZB_Rbanner.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                        한정수량 45% 할인특템 찬스<br>
+                                        <span>선데이 치즈볼 BEST 틴 + 인형세트</span>
+                                    </p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="control">
+                        <a href="#" class="prev"><img src="img/directionimg_arrow.png" alt=""></a>
+                        <a href="#" class="next"><img src="img/directionimg_arrow.png" alt=""></a>
+                    </div>
+                    <ul class="indicator">
+
+                    </ul>
+                </div>
+                <div class="slide_box_mobile">
+                   <p class="dummy"><img src="img/190820_Rbanner_phonecase_M.jpg" alt=""></p>
+                    <div class="slide">
+                        <ul>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190820_Rbanner_phonecase_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+
+                                        <span>고르는 재미, <br />폰케이스 맛집</span>
+                                        핸드폰 케이스 신상 8종
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190823_Rbanner_pet_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+
+                                        <span>카카오프렌즈<br>
+                                        애견용품 런칭</span>
+                                        우리집 댕댕이 라이언 꼬까옷
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190830_Rbanner_megaface_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>메가급<br>
+                                       커여움</span>
+                                        크고 아름다운 메가페이스쿠션
+
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190830_Rbanner_friendswater_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>이렇게 <br>
+                                       귀여울 水가!</span>
+                                        깨끗한 물에 귀여움 한방울
+
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190822_Rbanner_travel_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>훌-쩍<br>
+                                        떠나고플 때</span>
+                                        열심히 일한 당신, 떠나라!
+
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190801_Rbanner_lovely2_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>심쿵 핑크빛<br>
+                                       어피치 다꾸</span>
+                                        러블리어피치 테마 문구류
+
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190812_Rbanner_home_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>프로집순이의<br>
+                                       방콕휴가템</span>
+                                        휴가 안 가는 사람 모여라!
+
+                                    </p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190712_Rbanner_Briefbag_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>열일을 위한<br>
+                                       노트북 용품</span>
+                                        노트북만 있으면 허전해
+
+                                    </p>
+                                </a>
+                              </li>
+                              <li><a href="#">
+                                    <p class="image">
+                                        <img src="img/190820_Rbanner_phonecase_M.jpg" alt="">
+                                    </p>
+                                    <p class="text">
+                                       <span>사각 사각<br>
+                                       클래식 감성</span>
+                                        모나미 신상 모음
+
+                                    </p>
+                                </a></li>
+
+                                <li><a href="#">
+                                      <p class="image">
+                                          <img src="img/190827_SCZB_Rbanner_M.jpg" alt="">
+                                      </p>
+                                      <p class="text">
+                                         <span>선데이 치즈볼<br>
+                                         +인형세트</span>
+                                          한정수량 45% 할인특템 찬스
+
+                                      </p>
+                                  </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="indicator">
+
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="promotion"><a href="#">
+                        <p class="image">
+                            <img src="img/190730_Cbanner_sale_W.jpg" alt="">
+                        </p>
+
+                    </a></div>
+                <div class="promotion"><a href="#">
+                        <p class="image">
+                            <img src="img/190821_Cbanner_lovelyfriends_W.jpg" alt="">
+                        </p>
+                        <p class="text">
+                            나 리틀라이언,<br>
+                            엄청 커졌죠
+                        </p>
+                    </a></div>
+                <div class="promotion"><a href="#">
+                        <p class="image">
+                            <img src="img/190828_Cbanner_charging_W.jpg" alt="">
+                        </p>
+                        <p class="text">
+                            너만 있다면<br>
+                            100% 든든해
+                        </p>
+                    </a></div>
+                <div class="promotion"><a href="#">
+                        <p class="image">
+                            <img src="img/190902_Cbanner_stationery_W.jpg" alt="">
+                        </p>
+                        <p class="text">
+                            귀여움이<br>
+                            오조오억배
+                        </p>
+                    </a></div>
+            </div>
+            <div class="section3">
+                <div class="title">
+                    <a href="#">새로나온 친구들</a>
+                </div>
+                <div class="productbox">
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_01.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            리틀프렌즈전신필통_어피치
+                        </p>
+                        <p class="price">
+                            15,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_02.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            나이키 조이라이드 스포츠보틀
+                        </p>
+                        <p class="price">
+                            12,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_03.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            20인치 기내캐리어_라이언
+                        </p>
+                        <p class="price">
+                            150,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_04.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            라이언 듀얼 고속 충전 보조배터리
+                        </p>
+                        <p class="price">
+                            49,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_05.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            말랑키체인 메모지_라이언
+                        </p>
+                        <p class="price">
+                            8,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_06.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            애견 패턴후드티_라이언
+                        </p>
+                        <p class="price">
+                            25,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_07.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            애견 배변봉투 케이스
+                        </p>
+                        <p class="price">
+                            10,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_08.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            메가페이스쿠션_어피치
+                        </p>
+                        <p class="price">
+                            99,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#">
+                        상품 더 보기
+                    </a>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="title"><a href="#">
+                        <p class="image">
+                            <img src="img/190607_Tbanner_ryan_W.jpg" alt="">
+                            <img src="img/190607_Tbanner_ryan_M.jpg" alt="">
+                        </p>
+                        <p class="text">
+                            좋.못.사<br>
+                            라이언 널 사랑해
+                        </p>
+                    </a></div>
+                <div class="productbox">
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_09.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            폭신폭신 애견방석_라이언
+                        </p>
+                        <p class="price">
+                            59,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_10.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            애견 하네스 배낭세트_라이언
+                        </p>
+                        <p class="price">
+                            24,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_11.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            실리콘냄비받침_라이언
+                        </p>
+                        <p class="price">
+                            8,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_12.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            러블리프렌즈_라이언
+                        </p>
+                        <p class="price">
+                            45,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_13.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            UV LED 칫솔살균기_라이언
+                        </p>
+                        <p class="price">
+                            25,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_14.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            코지바디필로우_라이언
+                        </p>
+                        <p class="price">
+                            39,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_15.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            에어팟케이스_리틀라이언
+                        </p>
+                        <p class="price">
+                            15,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_16.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            프렌즈워터 500ml*20입
+                        </p>
+                        <p class="price">
+                            6,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#">
+                        상품 더 보기
+                    </a>
+                </div>
+            </div>
+            <div class="section5">
+                <div class="title"><a href="#">
+                        <p class="image">
+                            <img src="img/190607_Tbanner_apeach_W.jpg" alt="">
+                            <img src="img/190607_Tbanner_apeach_M.jpg" alt="">
+                        </p>
+                        <p class="text">
+                            이 구역의<br>
+                            비주얼 담당
+                        </p>
+                    </a></div>
+                <div class="productbox">
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_17.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            육공다이어리
+                        </p>
+                        <p class="price">
+                            20,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_18.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            에어팟케이스 핑거링세트
+                        </p>
+                        <p class="price">
+                            18,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_19.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            에어팟 키링
+                        </p>
+                        <p class="price">
+                            16,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_20.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            꿀잠베이비필로우
+                        </p>
+                        <p class="price">
+                            12,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_22.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            리틀스케치북_인덱스파일 5칸
+                        </p>
+                        <p class="price">
+                            3,500원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_23.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            러블리어피치 클리어샤프
+                        </p>
+                        <p class="price">
+                            3,500원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_24.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            베이비필로우
+                        </p>
+                        <p class="price">
+                            12,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_39.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            어피치 듀얼 고속 충전 보조배터리
+                        </p>
+                        <p class="price">
+                            49,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="more">
+                    <a href="#">
+                        상품 더 보기
+                    </a>
+                </div>
+            </div>
+
+            <div class="section6">
+                <div class="title"><a href="#">
+                        <p class="image">
+                            <img src="img/190618_Tbanner_jordy_W.jpg" alt="">
+                            <img src="img/190618_Tbanner_jordy_M.jpg" alt="">
+                        </p>
+                        <p class="text">
+                            취준생 죠르디<br>
+                            오늘도 열심히
+                        </p>
+                    </a></div>
+                <div class="productbox">
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_25.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            말랑인형
+                        </p>
+                        <p class="price">
+                            20,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_26.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            미니키체인
+                        </p>
+                        <p class="price">
+                            5,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_27.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            귀염귀염스티커
+                        </p>
+                        <p class="price">
+                            2,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_28.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            젤펜
+                        </p>
+                        <p class="price">
+                            3,500원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="more">
+                    <a href="#">
+                        상품 더 보기
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="section7">
+                <div class="title"><a href="#">
+                        인기 친구들
+                    </a></div>
+                <div class="productbox">
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_29.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            리틀프렌즈전신필통
+                        </p>
+                        <p class="price">
+                            15,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_30.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            주차번호판
+                        </p>
+                        <p class="price">
+                            10,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_31.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            에어팟케이스 핑거링세트
+                        </p>
+                        <p class="price">
+                            18,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_32.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            전자탁상시계
+                        </p>
+                        <p class="price">
+                            38,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_33.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            메가페이스쿠션
+                        </p>
+                        <p class="price">
+                            99,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_24.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            베이비필로우
+                        </p>
+                        <p class="price">
+                            12,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_03.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            20인치 기내캐리어
+                        </p>
+                        <p class="price">
+                            150,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="image"><a href="#">
+                                <img src="img/product_39.jpg" alt="">
+                            </a></p>
+                        <p class="name">
+                            어피치 듀얼 고속 충전 보조배터리
+                        </p>
+                        <p class="price">
+                            49,000원
+                        </p>
+                        <p class="cart">
+                            <a href="#"><img src="img/ico_cart.png" alt=""></a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="more">
+                    <a href="#">
+                        상품 더 보기
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="notice">
+            <a href="#"><img src="img/notico_newfriends_v1_180920.png" alt=""> 공지 2019년 추석 연휴 온라인스토어 배송 및 고객센터 운영 안내</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="innerfooter">
+            <p class="privacy">
+                <a href="#">개인정보처리방침</a>
+                <a href="#">이용약관</a>
+                <a href="#">제휴문의</a>
+            </p>
+            <div class="address">
+                카카오아이엑스 사업자등록번호 : 354-86-00070 <br>
+                통신판매업 신고번호 : 2017-서울강남-02573 <br>
+                대표이사 : 권승조 <br>
+                주소 : 서울특별시 강남구 테헤란로 521 파르나스타워, 27층 <br>
+                고객센터 : 1577-6263 / 평일 10시 ~ 18시 <br>
+                store@kakaofriends.com<br>
+                글로벌 배송 문의 : global@kakaofriends.com
+
+            </div>
+            <div class="copyright">
+                <strong>Copyright</strong> © <strong>KAKAO IX CORP.</strong></span>
+            </div>
+        </div>
+    </div>
+    <div class="gotop">
+        <a href="#"><img src="img/ico_top.png" alt=""></a>
+    </div>
+
+</body>
+
+</html>
