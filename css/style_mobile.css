@@ -1,0 +1,673 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+body {
+    color: #898989;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.header {
+
+    display: none;
+
+}
+.header_mobile {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
+}
+.header_mobile .topheader {
+    height: 60%;
+    position: relative;
+}
+.header_mobile .topheader .leftmenu {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header_mobile .topheader .leftmenu .menubar {
+    display: inline-block;
+}
+
+.header_mobile .topheader .leftmenu .menubar a span {
+    width: 20px;
+    height: 2px;
+    background: black;
+    display: block;
+
+}
+.header_mobile .topheader .leftmenu .menubar a span + span {
+    margin-top: 4px;
+}
+.header_mobile .topheader .leftmenu .search {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header_mobile .topheader .leftmenu .search a img {
+    vertical-align: middle;
+    width: 16px;
+}
+.header_mobile .topheader .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.header_mobile .topheader .logo a img {
+    width: 140px;
+}
+.header_mobile .topheader .rightmenu {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.header_mobile .topheader .rightmenu .cart {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header_mobile .topheader .rightmenu .cart a img {
+    width: 19px;
+    vertical-align: middle;
+}
+.header_mobile .topheader .rightmenu .lang {
+    display: inline-block;
+}
+
+.header_mobile .topheader .rightmenu .lang a img {
+    width: 19px;
+    vertical-align: middle;
+}
+.header_mobile .nav {
+    height: 40%;
+    text-align: center;
+}
+.header_mobile .nav ul {
+
+}
+.header_mobile .nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-bottom: 2px solid #ededed;
+}
+.header_mobile .nav ul li.on {
+    color: #000;
+    font-weight: bold;
+}
+.header_mobile .nav ul li a {
+
+    line-height: 40px;
+    display: block;
+}
+
+.header_mobile .nav .bar {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 4px;
+    background: black;
+    transition: all 0.3s;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1 .slide_box {
+    display: none;
+}
+
+
+.section1 {
+    margin-top: 100px;
+}
+.section1 .slide_box_mobile .dummy img {
+    width: 100%;
+    opacity: 0;
+}
+.section1 .slide_box_mobile {
+    position: relative;
+}
+
+
+.section1 .slide_box_mobile .slide li {
+   position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section1 .slide_box_mobile .slide li .image img {
+    width: 100%;
+}
+.section1 .slide_box_mobile .slide li .text {
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+    color: white;
+}
+.section1 .slide_box_mobile .slide li .text span {
+    font-size: 50px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section1 .slide_box_mobile .indicator {
+    position: absolute;
+    bottom: 35px;
+    left: 40px;
+}
+.section1 .slide_box_mobile .indicator li {
+
+    display: inline-block;
+
+}
+.section1 .slide_box_mobile .indicator li a {
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+    width: 25px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.section1 .slide_box_mobile .indicator li.on a {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section2 {
+
+   overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.section2:before {
+    content: '여기 주목해봐';
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.section2 .promotion {
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.section2 .promotion .image img {
+    border-radius: 10px;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.section2 .promotion .text {
+    text-align: left;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px
+}
+.section3,
+.section7 {
+    margin-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.section3 {
+
+    display: none;
+}
+.section7 {
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+.section3 .title,
+.section7 .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.section4,
+.section5,
+.section6 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px
+}
+
+.section4 .title img,
+.section5 .title img,
+.section6 .title img {
+    width: 100%;
+}
+.productbox {
+    width: 100%;
+    overflow: hidden;
+}
+.product {
+    float: left;
+    width: calc(50% - 7.5px);
+    margin-right: 15px;
+}
+.product:nth-child(2n) {
+    margin-right: 0;
+}
+
+
+.product .image {
+    margin-bottom: 30px;
+}
+.product .image img {
+    border-radius: 10px;
+    width: 100%;
+    vertical-align: bottom;
+}
+.product .name {
+
+    color: #0a0a0a;
+}
+.product .price {
+
+    margin-top: 5px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.product .cart img {
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 75px
+}
+.section4 .title,
+.section5 .title,
+.section6 .title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section4 .title .image img,
+.section5 .title .image img,
+.section6 .title .image img {
+    display: none;
+}
+
+.section4 .title .image img:nth-child(2),
+.section5 .title .image img:nth-child(2),
+.section6 .title .image img:nth-child(2) {
+    display: block;
+    border-radius: 10px;
+
+}
+
+.section4 .title .text,
+.section5 .title .text,
+.section6 .title .text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: -75px;
+    left: 0;
+}
+.more a {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 15px 60px;
+    border-radius: 5px;
+    color: #1e1e1e;
+}
+
+.more {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.notice {
+
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+    margin-bottom: 30px;
+    display: none;
+}
+.notice img {
+    display: inline-block;
+    margin-right: 25px;
+}
+.footer {
+    background-color: #2e2e2e;
+    width: 100%;
+}
+.footer .innerfooter {
+
+
+
+    padding: 40px 20px;
+    color: #c0c0c0;
+}
+.footer .innerfooter .privacy a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.footer .innerfooter .address {
+    font-size: 13px;
+    margin-bottom: 70px;
+}
+.footer .innerfooter .copyright {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.gotop a {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border: 1px solid #d4d4d4;
+}
+.gotop.on a {
+    opacity: 1;
+}
+.gotop img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px
+}
+
+.curtain {
+    background-color: lightgray;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    transition: left 0.3s;
+    padding-bottom: 100px;
+    color: #1e1e1e;
+}
+.curtain.on {
+    left: 0
+}
+.curtain .top1 {
+    background-color: #ffdc00;
+    height: 70px;
+    position: relative;
+    color: #1e1e1e;
+}
+.curtain .top1 .login {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+
+}
+.curtain .top1 .login a {
+    display: block;
+}
+.curtain .top1 .login a:nth-child(1) {
+    font-size: 18px;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+.curtain .top1 .login a:nth-child(2) {
+    font-size: 12px;
+}
+.curtain .top1 .check a {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    border-radius: 15px;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+
+.curtain .top1 .cancel {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+}
+
+.curtain .top1 .cancel a img {
+    width: 15px;
+    vertical-align: bottom;
+}
+.curtain .top2 {
+    background-color: #ffd938;
+    height: 80px;
+    color: #1e1e1e;
+}
+
+.curtain .top2 ul li a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.curtain .top2 ul li a img {
+    width: 25px;
+
+}
+.curtain .top2 ul li a span {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.curtain .banner img {
+    width: 100%;
+    vertical-align: bottom
+}
+.curtain .all {
+    background-color: white;
+    overflow: hidden;
+}
+
+.curtain .all ul li a {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    line-height: 70px;
+    border-right: 1px solid rgba(211, 211, 211, 0.4);
+    border-bottom: 1px solid rgba(211, 211, 211, 0.4);
+}
+.curtain .all ul li:nth-child(3n) a{
+    border-right: none;
+}
+.curtain .all ul li:nth-child(10) a,
+.curtain .all ul li:nth-child(11) a {
+    border-bottom: 0
+}
+
+.curtain .all ul li a img {
+    vertical-align: middle;
+}
+.curtain .ning {
+    background-color: white;
+    margin-top: 10px
+}
+.curtain .name a {
+
+    line-height: 75px;
+    padding: 0 20px;
+    position: relative;
+    display: block;
+}
+
+.curtain .name a img {
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+.curtain .ning ul {
+
+    margin: 0 20px;
+    overflow: hidden;
+}
+.curtain .ning ul li {
+    float: left;
+    width: 50%;
+}
+
+.curtain .ning ul li a img {
+    width: 100%;
+}
+.curtain .nang {
+    background-color: white;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.curtain .nang ul {
+
+    margin: 0 20px;
+    overflow: hidden;
+}
+.curtain .nang ul li {
+    float: left;
+    width: calc(50% - 2.5px);
+    margin-right: 5px;
+}
+.curtain .nang ul li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.curtain .nang ul li a img {
+    width: 100%;
+}
+.curtain .nyong {
+    background-color: white;
+}
+.curtain .nyong ul {
+    margin: 0 20px;
+}
+.curtain .nyong ul li a {
+    line-height: 60px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.4);
+    position: relative;
+    display: block;
+}
+.curtain .nyong ul li:last-child a {
+    border: none;
+}
+
+.curtain .nyong ul li a img:nth-child(1) {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 15px
+}
+.curtain .nyong ul li a img:nth-child(2) {
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+.curtain .power {
+    font-size: 12px;
+
+    margin: 20px 17px 40px;
+}
+
+.curtain .power a img {
+    width: 15px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.curtain .copyright {
+
+    margin: 0 17px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(30, 30, 30, 0.5);
+}
